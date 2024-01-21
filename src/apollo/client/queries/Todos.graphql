@@ -1,0 +1,5 @@
+query getAllTodos($filter: TodoFilter) {
+  todos: allTodos(filter: $filter, sortField: "id", sortOrder: "desc") {
+    ...TodoItem
+  }
+}

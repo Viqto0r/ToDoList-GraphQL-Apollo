@@ -1,0 +1,17 @@
+mutation updateTodo($id: ID!, $title: String, $complited: Boolean) {
+  updateTodo(id: $id, title: $title, complited: $complited) {
+    ...TodoItem
+  }
+}
+
+mutation createTodo($title: String!, $complited: Boolean!) {
+  createTodo(title: $title, complited: $complited) {
+    ...TodoItem
+  }
+}
+
+mutation removeTodo($id: ID!) {
+  removeTodo(id: $id) {
+    ...TodoItem
+  }
+}

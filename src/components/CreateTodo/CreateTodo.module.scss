@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  font-size: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  &:focus {
+    border-color: transparent;
+    outline: 3px solid rgb(54, 110, 247);
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

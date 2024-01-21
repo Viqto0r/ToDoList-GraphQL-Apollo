@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 5px;
+  &:hover {
+    background-color: #cbcbcb;
+    color: black;
+  }
+}
